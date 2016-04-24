@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url(bootstrap/bootstrap.min.css);
+/* line 5, jtf.css.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif; }
+
+/* line 12, jtf.css.scss */
+.navbar {
+  margin-bottom: 0px; }
+
+/* line 15, jtf.css.scss */
+.navbar-default {
+  background-color: #ac1e44; }
+
+/* line 19, jtf.css.scss */
+.navbar-brand {
+  padding: 7px; }
+
+/* line 23, jtf.css.scss */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent; }
+
+/* line 26, jtf.css.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF; }
+  /* line 28, jtf.css.scss */
+  .navbar-default .navbar-nav > li > a:visited {
+    color: #FFFFFF; }
+  /* line 32, jtf.css.scss */
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #FFFFFF; }
+
+/* line 37, jtf.css.scss */
+.icons {
+  font-size: 160%;
+  margin-left: 15px; }
+
+/* line 41, jtf.css.scss */
+.container {
+  margin: 0 auto;
+  text-align: left; }
+
+/* line 46, jtf.css.scss */
+.img_top {
+  height: auto;
+  background-image: url(../images/promotion.png); }
+  @media screen and (min-width: 1090px) {
+    /* line 46, jtf.css.scss */
+    .img_top {
+      background-size: cover;
+      height: 1089px; }
+      /* line 53, jtf.css.scss */
+      .img_top p {
+        text-align: center;
+        padding-top: 310px; } }
+  @media screen and (max-width: 1089px) {
+    /* line 46, jtf.css.scss */
+    .img_top {
+      background-size: cover;
+      height: auto;
+      width: 100%;
+      background-repeat: no-repeat; }
+      /* line 64, jtf.css.scss */
+      .img_top p {
+        text-align: center;
+        padding-top: 215px; } }
+  @media screen and (max-width: 800px) {
+    /* line 46, jtf.css.scss */
+    .img_top {
+      background-size: cover;
+      height: 519px; }
+      /* line 73, jtf.css.scss */
+      .img_top p {
+        text-align: center;
+        padding-top: 180px; } }
+  @media screen and (max-width: 480px) {
+    /* line 46, jtf.css.scss */
+    .img_top {
+      background-size: cover;
+      height: 338px; }
+      /* line 82, jtf.css.scss */
+      .img_top p {
+        text-align: center;
+        padding-top: 100px; } }
+  /* line 87, jtf.css.scss */
+  .img_top img {
+    padding-bottom: 2px; }
+
+/* line 92, jtf.css.scss */
+.img_center {
+  background-image: url(../images/img_center.png);
+  text-align: left;
+  padding: 5px; }
+  /* line 96, jtf.css.scss */
+  .img_center img {
+    padding-bottom: 2px; }
+
+/* line 101, jtf.css.scss */
+.bs-docs-footer {
+  background-color: #ac1e44;
+  background-image: url(../images/img_footer.png);
+  background-repeat: repeat; }
+  @media screen and (min-width: 768px) {
+    /* line 101, jtf.css.scss */
+    .bs-docs-footer {
+      background-size: cover;
+      height: 400px; } }
+  @media screen and (max-width: 768px) {
+    /* line 101, jtf.css.scss */
+    .bs-docs-footer {
+      background-size: cover;
+      height: 150px; } }
+
+/* line 116, jtf.css.scss */
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding-right: 45px;
+  padding-left: 45px; }
